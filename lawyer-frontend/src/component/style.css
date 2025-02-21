@@ -1,0 +1,80 @@
+/* Container styling */
+.text-input-container {
+   display: flex;
+   flex-direction: column;
+   margin: 1rem 0;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
+ 
+ /* Input wrapper to handle icon alignment */
+ .text-input-wrapper {
+   position: relative;
+   display: flex;
+   align-items: center;
+   width: 30%;
+ }
+ 
+ /* Input label */
+ .text-input-label {
+   font-size: 0.9rem;
+   margin-bottom: 0.5rem;
+   font-weight: 600;
+   color: #333;
+   width: 80%;
+ }
+ 
+ /* Basic input styling */
+ .text-input-field {
+   width: 100%;
+   padding: 10px 12px 10px 40px; /* Padding for icon space */
+   border: 1px solid #ccc;
+   border-radius: 6px;
+   font-size: 1rem;
+   transition: border-color 0.3s ease;
+   box-sizing: border-box;
+ }
+ 
+ /* Hover state */
+ .text-input-field:hover {
+   background-color: rgb(250, 247, 247);
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Focus state */
+ .text-input-field:focus {
+   outline: none;
+   border-color: #007bff;
+   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+ }
+ 
+ /* Disabled state */
+ .text-input-field:disabled {
+   background-color: #f0f0f0;
+   color: #888;
+   cursor: not-allowed;
+ }
+ 
+ /* Read-only state */
+ .text-input-field[readonly] {
+   background-color: #f9f9f9;
+   color: #555;
+   cursor: text;
+ }
+ 
+ /* Validation message */
+ .text-input-validation {
+   margin-top: 0.3rem;
+   font-size: 0.8rem;
+   color: red;
+ }
+ 
+ /* Icon styling */
+ .text-input-icon {
+   position: absolute;
+   left: 10px;  /* Align icon to the left */
+   font-size: 1.2rem;
+   color: green;
+ } 
