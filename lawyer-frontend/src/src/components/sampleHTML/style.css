@@ -1,0 +1,117 @@
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   border : 3.5px #F93D7B solid;
+}
+
+.header p {
+   font-size: 12px;
+   margin-top: 5%;
+   margin-left: 87%;
+}
+
+.heading {
+   text-align: center;
+}
+
+.components {
+   padding: 10%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   justify-content: space-around;
+   width: 400;
+   margin-top: -8%;
+   margin-bottom: -70px;
+}
+
+.login , .guests{
+   border-right: .5px solid grey;
+}
+
+hr {
+   width: 92%;
+   margin-bottom: 10%;
+   text-shadow: 0 0 0 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.first p{
+   margin-left: 3%;
+}
+
+.loginSecond {
+   margin-left: 3%;
+}
+
+.loginSecond .userInput {
+   height: 25px;
+   width: 89%;
+   border: 1px solid grey;
+   border-radius: 5px;
+   margin-top: 2%;
+}
+
+.loginSecond b {
+   margin-left: 2%;
+}
+
+.loginSecond p {
+   font-size: 12px;
+}
+
+.loginSecond p, .header p:hover {
+   cursor: pointer;
+}
+
+.check :hover{
+   cursor: pointer;
+}
+
+.guestsSecond {
+   margin-left: 10%;
+   padding-top: 2%;
+}
+
+img{
+   width: 60px;
+}
+
+.button {
+   margin-left: 3%;
+   margin-top: 20%;
+   height: 35px;
+   width: 50%;
+   border: none;
+   border-radius: 3px;
+   color: white;
+   background-color: #FC2707;
+}
+
+.paySecond {
+   margin-left: 4%;
+}
+
+.payButton {
+   margin-left: 3%;
+   margin-top: 51%;
+   height: 35px;
+   width: 50%;
+   border: 1px solid grey;
+   border-radius: 3px;
+}
+
+.guests .button {
+   margin-top: 23.5%;
+}
+
+.button:hover {
+   cursor: pointer;
+   background-color: rgb(196, 28, 28);
+   box-shadow: 0 4px 8px rgba(242, 26, 26, 0.1);
+}
+
+.userInput:hover {
+   background-color: rgb(250, 248, 248);
+   box-shadow: 0 4px 8px rgba(.1, .1, .1, 0.1);
+}
+

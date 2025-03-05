@@ -1,0 +1,19 @@
+[
+    {
+      "id": "1",
+      "name": "John Doe",
+      "specialization": "Criminal Law",
+      "fees": "5000",
+      "experience": "10 years",
+      "rating": 4.5
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "specialization": "Corporate Law",
+      "fees": "7000",
+      "experience": "8 years",
+      "rating": 4.8
+    }
+  ]
+  
